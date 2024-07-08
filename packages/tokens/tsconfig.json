@@ -1,0 +1,6 @@
+{
+  "extends": "@guerber-ui/ts-config/base.json",
+  "include": [
+    "src"
+  ],
+}

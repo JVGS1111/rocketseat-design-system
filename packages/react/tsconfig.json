@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "jsx": "react"
+    },
+    "extends": "@guerber-ui/ts-config/react.json",
+    "include": [
+        "src"
+    ],
+}
