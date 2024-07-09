@@ -1,10 +1,15 @@
 {
-  "scripts": {},
+  "name": "guerber-ui",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
     "turbo": "^2.0.6"
-  }
+  },
+  "packageManager": "npm@10.5.2"
 }

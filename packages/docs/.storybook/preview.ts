@@ -13,9 +13,12 @@ const preview: Preview = {
       default: "dark"
     },
     docs: {
-      theme: themes.dark
-    }
+      theme: themes.dark,
+    },
   },
+  tags: [
+    "autodocs"
+  ]
 };
 
 export default preview;
